@@ -8,7 +8,7 @@ This dataset contains information on the factors influencing walmart's revenue, 
 1. Python: Used to cleaning and imputation of raw data
 2. SQL: Used to perform exploratory analysis to uncover patterns and meaningful insights
 3. Power BI: Used to create a dashboard to visualize trends for key stakeholders
-**
+***
 
 ### **Dataset Features**
 The columns included in the dataset are the following:
