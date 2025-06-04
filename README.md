@@ -37,16 +37,16 @@ This analysis seeks to identify patterns in Walmart's sales and derive actionabl
 - Correlation with External Factors: Analyzing the relationship between sales and external economic factors including CPI, Fuel Price, Weather Conditions and Unemployment.
 
 
-### 1. Importing Libraries and Data Loading
+## 1. Importing Libraries and Data Loading
 
 
 
-### 2. Importing Libraries and Data Loading
+## 2. Importing Libraries and Data Loading
 
 
 
-### 3. Visualization
+## 3. Visualization
 
 
 
-### 4. Insights and Recommendations
+## 4. Insights and Recommendations
