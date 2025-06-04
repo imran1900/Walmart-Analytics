@@ -41,7 +41,7 @@ This analysis seeks to identify patterns in Walmart's sales and derive actionabl
 
 
 
-## 2. Importing Libraries and Data Loading
+## 2. Exploratory Data Analysis
 
 
 
