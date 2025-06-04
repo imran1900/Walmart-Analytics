@@ -8,7 +8,7 @@ This dataset contains information on the factors influencing walmart's revenue, 
 1. Python: Used to cleaning and imputation of raw data
 2. SQL: Used to perform exploratory analysis to uncover patterns and meaningful insights
 3. Power BI: Used to create a dashboard to visualize trends for key stakeholders
-***
+
 
 ## **Dataset Features**
 The columns included in the dataset are the following:
@@ -20,7 +20,7 @@ The columns included in the dataset are the following:
 - **Fuel_Price**: Fuel cost in the region
 - **CPI**: Consumer price index
 - **Unemployment**: Unemployment rate
-***
+
 
 ## **Objectives**
 This analysis seeks to identify patterns in Walmart's sales and derive actionable insights by exploring the factors affecting profit margins. The scope of this analysis includes:
@@ -28,6 +28,6 @@ This analysis seeks to identify patterns in Walmart's sales and derive actionabl
 - Holiday Influence: Assess the impact of holiday seasons on sales performance, and determine the events that coincide with increases in revenue.
 - Store-Level Performance: Benchmark sales of individual stores to distinguish high-performing and underperforming stores.
 - Correlation with External Factors: Analyzing the relationship between sales and external economic factors including CPI, Fuel Price, Weather Conditions and Unemployment.
-***
 
-# Exploratory Data Analysis
+
+## Exploratory Data Analysis
