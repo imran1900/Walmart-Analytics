@@ -2,7 +2,7 @@
 
 ## **Description**
 This dataset contains information on the factors influencing walmart's revenue, such as the price of fuel, consumer price index, air temparature in the region and unemployment rate. Walmart is one of the largest American multinational retail store that runs operations in the United states and in 23 other countries. The dataset provides the opportunity to explore the factors affecting walmart's profit margin and generate actionable insights.
-***
+
 
 ## Tech Stack
 1. Python: Used to cleaning and imputation of raw data
