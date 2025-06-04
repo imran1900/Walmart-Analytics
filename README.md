@@ -39,8 +39,7 @@ This analysis seeks to identify patterns in Walmart's sales and derive actionabl
 
 ## 1. Importing Libraries and Data Loading
 
-"cells": [
-  {
+{
    "cell_type": "code",
    "execution_count": 2,
    "id": "1dce74f0-0969-4d42-8af8-9796daff6427",
