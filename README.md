@@ -1,4 +1,11 @@
-# Walmart-Analytics
+# **Walmart-Analytics**
+
+## **Table of Contents**
+1. Importing Libraries and Data Loading
+2. Exploratory Data Analysis
+3. Visualization
+4. Insights & Recommendations
+
 
 ## **Description**
 This dataset contains information on the factors influencing walmart's revenue, such as the price of fuel, consumer price index, air temparature in the region and unemployment rate for each given week. Walmart is one of the largest American multinational retail store that runs operations in the United states and in 23 other countries. The dataset provides the opportunity to explore the factors affecting walmart's profit margin and generate actionable insights.
@@ -30,4 +37,16 @@ This analysis seeks to identify patterns in Walmart's sales and derive actionabl
 - Correlation with External Factors: Analyzing the relationship between sales and external economic factors including CPI, Fuel Price, Weather Conditions and Unemployment.
 
 
-## Exploratory Data Analysis
+### 1. Importing Libraries and Data Loading
+
+
+
+### 2. Importing Libraries and Data Loading
+
+
+
+### 3. Visualization
+
+
+
+### 4. Insights and Recommendations
