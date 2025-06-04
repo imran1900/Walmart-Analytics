@@ -31,7 +31,7 @@ This analysis seeks to identify patterns in Walmart's sales and derive actionabl
 
 
 ## Project Phases
-#### 1. Import Libraries and Data Cleaning (Python)
+#### 1. [Import Libraries and Data Cleaning](https://github.com/imran1900/Walmart-Analytics/blob/main/Data%20Loading%20and%20Wrangling.ipynb) (Python)
 #### 2. Exploratory Data Analysis (MySQL)
 #### 3. Visualization (Power BI)
 #### 4. Insights and Recommendations
