@@ -5,7 +5,7 @@ This dataset contains information on the factors influencing walmart's revenue, 
 
 
 ## Tech Stack
-1. **Python**: Via **Jupyter Notebooks**, used to cleaning and imputation of raw data
+1. **Python**: Via **Jupyter Notebooks**, used for cleaning and imputation of raw data
 2. **SQL**: Via **MySQL** Workbench, Used to perform exploratory analysis to uncover patterns and meaningful insights
 3. **Power BI**: Used to create a dashboard to visualize trends for key stakeholders
 
