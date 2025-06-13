@@ -35,11 +35,6 @@ This analysis seeks to identify patterns in Walmart's sales and derive actionabl
 #### 2. [Exploratory Data Analysis](https://github.com/imran1900/Walmart-Analytics/blob/main/walmart-sql) (MySQL)
 #### 3. Visualization (Power BI)
 
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/b25f84f9-f021-4093-8e59-c40ea84d3e97)
 
 #### 4. Insights and Recommendations
