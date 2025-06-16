@@ -113,7 +113,7 @@ Output:
 
 ```sql
 SELECT
-	Year,
+    Year,
     ROUND(AVG(weekly_sales), 2) AS avg_weekly_sales
 FROM walmart_staging
 GROUP BY Year
@@ -131,7 +131,7 @@ Output:
 ```sql
 SELECT 
     Store,
-	Date,
+    Date,
     ROUND(MIN(Weekly_sales), 2) AS weekly_sales,
     Holiday_Flag
 FROM walmart_staging
@@ -150,7 +150,7 @@ Store ID 33 has the lowest weekly sales amount of $215,359.21 in December, 2011.
 ```sql
 SELECT 
     Store,
-	Date,
+    Date,
     ROUND(MAX(Weekly_sales), 2) AS weekly_sales,
     Holiday_Flag
 FROM walmart_staging
@@ -185,7 +185,7 @@ Store ID 20 has the highest average weekly sales of $2.1 million
 
 ```sql
 SELECT
-	Store,
+    Store,
     ROUND(SUM(Weekly_sales), 2) AS total_sales
 FROM walmart_staging
 GROUP BY Store
@@ -202,7 +202,7 @@ Store ID 20 has the highest toal sales of $3.01 million
 
 ```sql
 WITH ranked_sales AS(SELECT 
-	Store,
+    Store,
     Date,
     Weekly_sales,
     RANK() OVER(PARTITION BY Store ORDER BY Weekly_sales DESC) AS sales_rank
@@ -220,13 +220,13 @@ Output:
 ```sql
 SELECT
     CASE
-		WHEN Fuel_Price < 2.5 THEN '< 2.5'
+	WHEN Fuel_Price < 2.5 THEN '< 2.5'
         WHEN Fuel_Price BETWEEN 2.5 AND 2.75 THEN '2.5 - 2.75'
-		WHEN Fuel_Price BETWEEN 2.75 AND 3.0 THEN '2.75 - 3.0'
-		WHEN Fuel_Price BETWEEN 3.0 AND 3.25 THEN '3.0 - 3.25'
-		WHEN Fuel_Price BETWEEN 3.25 AND 3.5 THEN '3.25 - 3.5'
+	WHEN Fuel_Price BETWEEN 2.75 AND 3.0 THEN '2.75 - 3.0'
+	WHEN Fuel_Price BETWEEN 3.0 AND 3.25 THEN '3.0 - 3.25'
+	WHEN Fuel_Price BETWEEN 3.25 AND 3.5 THEN '3.25 - 3.5'
         ELSE '> 3.5'
-	END AS fuel_bracket,
+    END AS fuel_bracket,
     ROUND(AVG(Weekly_sales), 2) AS avg_weekly_sales
 FROM walmart_staging 
 GROUP BY fuel_bracket;
