@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [1.0 Data Preparation](#1.0-Data-Preparation)
-- [2.0 Exploratory Analysis](#2.0-Exploratory-Analysis)
+- [2.0 Exploratory Analysis](###2.0-Exploratory-Analysis)
 
 ### Description
 This analysis was done via MySQL Workbench. The purpose of this analysis is to answer business questions on how external economic factors and specific seasons are affecting walmart sales performance.
