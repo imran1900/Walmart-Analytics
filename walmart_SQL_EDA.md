@@ -31,6 +31,7 @@ Ensure the field types are correct for each column
 </p>
 
 Corrected the Date column replacing the field type from text to datetime. Then ensured the correct data format.
+
 <p align="center" width="100%">
   <img width="55%" src="https://github.com/user-attachments/assets/a37b1f5e-f4f0-4206-9964-3f0d235954c5"> 
 </p>
