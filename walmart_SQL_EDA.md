@@ -37,6 +37,8 @@ Corrected the Date column replacing the field type from text to datetime. Then e
 
 Finally, execute the Data Import task and ensure the correct number of rows from the cleaned dataset have been imported. There are 6435 rows.
 
+***
+
 ### 1.2 Staging Table Creation
 Objectives:
 1. Create a staging table - We duplicate the original table to make experimental changes to keep the original table intact incase anything goes wrong.
@@ -76,5 +78,7 @@ Ensure the format for Date is converted from from 'YYYY-MM-DD HH:MM:SS' to 'YYYY
 ```sql
 SELECT Date FROM walmart_staging;
 ```
+
+***
 
 ### 2.0 Exploratory Analysis
