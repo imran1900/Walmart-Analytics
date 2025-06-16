@@ -94,13 +94,52 @@ GROUP BY Month
 ORDER BY Total_Sales DESC;
 ```
 Output:
-The highest total sales across all walmart stores was in the July with a total sales amount of $650 million
-The lowest total sales was in January with an amount of $332.5 million
+- The highest total sales across all walmart stores was in the July with a total sales amount of $650 million
+- The lowest total sales was in January with an amount of $332.5 million
 
 <p align="left" width="100%">
   <img width="15%" src="https://github.com/user-attachments/assets/2e634a2c-3b55-42ed-8da5-3f349008580a"> 
 </p>
 
 
+2. How does the average weekly sales change over the years?
+
+```sql
+SELECT
+	Year,
+    ROUND(AVG(weekly_sales), 2) AS avg_weekly_sales
+FROM walmart_staging
+GROUP BY Year
+ORDER BY Year; 
+```
+Output:
+- The output shows an average of $1.05 million in 2010, $1.04 million in 2011 and $1.03 million in 2012
+- This show the average weekly sales has been decreasing by approximately 5% each year
+
+<p align="left" width="100%">
+  <img width="15%" src="https://github.com/user-attachments/assets/26ae1ae2-ebe4-4182-b539-3da9fdc29f59"> 
+</p>
+
+
+3. Which is the worst performing store during holiday weeks?
+
+```sql
+SELECT 
+    Store,
+	Date,
+    ROUND(MIN(Weekly_sales), 2) AS weekly_sales,
+    Holiday_Flag
+FROM walmart_staging
+WHERE Holiday_Flag = 1
+GROUP BY Holiday_Flag, Store, Date
+ORDER BY weekly_sales
+LIMIT 1;
+```
+Output:
+Store ID 33 has the lowest weekly sales amount of $215,359.21 in December, 2011.
+
+<p align="left" width="100%">
+  <img width="15%" src="https://github.com/user-attachments/assets/772eebfb-dc29-48b2-a995-798f3d8abfe7"> 
+</p>
 
 
