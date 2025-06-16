@@ -1,13 +1,13 @@
 # Exploratory Analysis - Walmart
 
 ## Table of Contents
-- [1.0 Data Preparation](#1.0-Data-Preparation)
-- [2.0 Exploratory Analysis](#2.0-Exploratory-Analysis)
+- [Data Preparation](#Data-Preparation)
+- [Exploratory Analysis](#Exploratory-Analysis)
 
 ### Description
 This analysis was done via MySQL Workbench. The purpose of this analysis is to answer business questions on how external economic factors and specific seasons are affecting walmart sales performance.
 
-### 1.0 Data Preparation
+### Data Preparation
 Create a schema then use it as the default schema for analysis.
 
 ```sql
@@ -85,7 +85,7 @@ SELECT Date FROM walmart_staging;
 
 ***
 
-### 2.0 Exploratory Analysis
+### Exploratory Analysis
 
 1. What is the total sales across all stores for each month?
 
