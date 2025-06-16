@@ -7,7 +7,7 @@
 ### Description
 This analysis was done via MySQL Workbench. The purpose of this analysis is to answer business questions on how external economic factors and specific seasons are affecting walmart sales performance.
 
-### 1.0 Data Preparation
+### Data Preparation
 Create a schema then use it as the default schema for analysis.
 
 ```sql
@@ -17,7 +17,7 @@ CREATE SCHEMA walmart_sales;
 USE walmart_sales;
 ```
 
-#### 1.1 Data Loading
+#### Data Loading
 Import the CSV file previously exported via Jupyter Notebooks
 <p align="center" width="100%">
   <img width="35%" src="https://github.com/user-attachments/assets/c1862464-09f1-4910-9c48-88efac75c94a"> 
@@ -43,12 +43,12 @@ Finally, execute the Data Import task and ensure the correct number of rows from
 
 ***
 
-### 1.2 Staging Table Creation
+### Staging Table Creation
 Objectives:
 1. Create a staging table - We duplicate the original table to make experimental changes to keep the original table intact incase anything goes wrong.
 2. Convert Date column data type from datetime to date - We want to get rid of the time format from 'YYYY-MM-DD HH:MM:SS' to 'YYYY-MM-DD'
 
-#### 1.2.1 Create Staging Table
+#### Create Staging Table
 The 'Date' column data type is converted from datetime to date.
 
 ```sql
@@ -67,12 +67,12 @@ CREATE TABLE `walmart_staging` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ```
 
-#### 1.2.2 Insert Values from Source Table
+#### Insert Values from Source Table
 ```sql
 INSERT INTO walmart_staging SELECT * FROM walmart;
 ```
 
-#### 1.2.3 Preliminary Checks
+#### Preliminary Checks
 Ensure the staging table 'walmart_staging' is populated, aligned with the source table and have the correct data types.
 ```sql
 SELECT * FROM walmart_staging;
@@ -85,7 +85,7 @@ SELECT Date FROM walmart_staging;
 
 ***
 
-### 2.0 Exploratory Analysis
+### Exploratory Analysis
 
 1. What is the total sales across all stores for each month?
 
