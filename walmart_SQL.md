@@ -247,8 +247,8 @@ Output:
 
 ```sql
 SELECT
-	CASE 
-		WHEN Unemployment < 3.0 THEN '< 3.0'
+    CASE
+	WHEN Unemployment < 3.0 THEN '< 3.0'
         WHEN Unemployment BETWEEN 3.0 AND 3.99 THEN '3.0 - 3.99'
         WHEN Unemployment BETWEEN 4.0 AND 4.99 THEN '4.0 - 4.99'
         WHEN Unemployment BETWEEN 5.0 AND 5.99 THEN '5.0 - 5.99'
@@ -256,7 +256,7 @@ SELECT
         WHEN Unemployment BETWEEN 7.0 AND 7.99 THEN '7.0 - 7.99'
         WHEN Unemployment BETWEEN 8.0 AND 8.99 THEN '8.0 - 8.99'
         ELSE '> 9.0'
-	END AS unemployment_bracket,
+    END AS unemployment_bracket,
     ROUND(AVG(Weekly_sales), 2) AS avg_weekly_sales
 FROM walmart_staging
 GROUP BY unemployment_bracket
@@ -275,7 +275,7 @@ Output:
 
 ```sql
 SELECT 
-	FLOOR(CPI/ 10) * 10 AS CPI_bracket,
+    FLOOR(CPI/ 10) * 10 AS CPI_bracket,
     ROUND(AVG(Weekly_sales), 2) AS avg_weekly_sales
 FROM walmart_staging
 GROUP BY cpi_bracket
