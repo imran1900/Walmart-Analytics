@@ -56,17 +56,17 @@ The 'Date' column data type is converted from datetime to date.
 
 ```sql
 CREATE TABLE `walmart_staging` (
-  `Store` int DEFAULT NULL,
-  `Date` date DEFAULT NULL,
-  `Weekly_Sales` double DEFAULT NULL,
-  `Holiday_Flag` int DEFAULT NULL,
-  `Temperature` double DEFAULT NULL,
-  `Fuel_Price` double DEFAULT NULL,
-  `CPI` double DEFAULT NULL,
-  `Unemployment` double DEFAULT NULL,
-  `day` int DEFAULT NULL,
-  `month` int DEFAULT NULL,
-  `year` int DEFAULT NULL
+	`Store` int DEFAULT NULL,
+	`Date` date DEFAULT NULL,
+	`Weekly_Sales` double DEFAULT NULL,
+	`Holiday_Flag` int DEFAULT NULL,
+	`Temperature` double DEFAULT NULL,
+	`Fuel_Price` double DEFAULT NULL,
+	`CPI` double DEFAULT NULL,
+	`Unemployment` double DEFAULT NULL,
+	`day` int DEFAULT NULL,
+	`month` int DEFAULT NULL,
+	`year` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ```
 
@@ -96,8 +96,8 @@ SELECT Date FROM walmart_staging;
 
 ```sql
 SELECT
-  Month,
-  ROUND(SUM(Weekly_Sales), 2) AS Total_Sales
+    Month,
+    ROUND(SUM(Weekly_Sales), 2) AS Total_Sales
 FROM walmart_staging
 GROUP BY Month
 ORDER BY Total_Sales DESC;
