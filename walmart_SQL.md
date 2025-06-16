@@ -35,13 +35,13 @@ Ensure the field types are correct for each column
   <img width="55%" src="https://github.com/user-attachments/assets/ca687b70-5bf5-4fec-8fbf-301ffe40d408"> 
 </p>
 
-Corrected the Date column replacing the field type from text to datetime. Then ensured the correct data format.
+Corrected the Date column replacing the field type from text to datetime.
 
 <p align="left" width="100%">
   <img width="55%" src="https://github.com/user-attachments/assets/a37b1f5e-f4f0-4206-9964-3f0d235954c5"> 
 </p>
 
-Finally, execute the Data Import task and ensure the correct number of rows from the cleaned dataset have been imported. There are 6435 rows.
+Execute the Data Import task and ensure the correct number of rows from the dataset have been imported. There are 6435 rows.
 
 ***
 
