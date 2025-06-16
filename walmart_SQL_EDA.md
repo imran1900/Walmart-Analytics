@@ -17,7 +17,7 @@ USE walmart_sales;
 #### 1.1 Data Loading
 Import the CSV file previously exported via Jupyter Notebooks
 <p align="center" width="100%">
-  <img width="55%" src="https://github.com/user-attachments/assets/c1862464-09f1-4910-9c48-88efac75c94a"> 
+  <img width="35%" src="https://github.com/user-attachments/assets/c1862464-09f1-4910-9c48-88efac75c94a"> 
 </p>
 
 Create a new table and give an appropriate name. 
