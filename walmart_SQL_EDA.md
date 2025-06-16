@@ -87,11 +87,16 @@ SELECT Date FROM walmart_staging;
 
 ```sql
 SELECT
-  Date,
+  Month,
   ROUND(SUM(Weekly_Sales), 2) AS Total_Sales
 FROM walmart_staging
-GROUP BY Date
+GROUP BY Month
 ORDER BY Total_Sales DESC;
 ```
+<p align="center" width="100%">
+  <img width="55%" src="https://github.com/user-attachments/assets/2e634a2c-3b55-42ed-8da5-3f349008580a"> 
+</p>
+
+
 
 
