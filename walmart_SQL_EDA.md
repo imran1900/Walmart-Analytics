@@ -17,6 +17,7 @@ CREATE SCHEMA walmart_sales;
 USE walmart_sales;
 ```
 
+
 #### Data Loading
 Import the CSV file previously exported via Jupyter Notebooks
 <p align="center" width="100%">
@@ -48,6 +49,7 @@ Objectives:
 1. Create a staging table - We duplicate the original table to make experimental changes to keep the original table intact incase anything goes wrong.
 2. Convert Date column data type from datetime to date - We want to get rid of the time format from 'YYYY-MM-DD HH:MM:SS' to 'YYYY-MM-DD'
 
+
 #### Create Staging Table
 The 'Date' column data type is converted from datetime to date.
 
@@ -67,10 +69,12 @@ CREATE TABLE `walmart_staging` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ```
 
+
 #### Insert Values from Source Table
 ```sql
 INSERT INTO walmart_staging SELECT * FROM walmart;
 ```
+
 
 #### Preliminary Checks
 Ensure the staging table 'walmart_staging' is populated, aligned with the source table and have the correct data types.
