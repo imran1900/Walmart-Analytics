@@ -137,9 +137,7 @@ LIMIT 1;
 ```
 Output:
 Store ID 33 has the lowest weekly sales amount of $215,359.21 in December, 2011.
+<kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/772eebfb-dc29-48b2-a995-798f3d8abfe7"></kbd>
 
-<p align="left" width="100%">
-  <img width="40%" src="https://github.com/user-attachments/assets/772eebfb-dc29-48b2-a995-798f3d8abfe7"> 
-</p>
 
 
