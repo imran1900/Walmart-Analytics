@@ -19,4 +19,4 @@ This analysis seeks to answer business objectives perviously mentioned by explor
 
 <kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/a4703ef7-861c-4a0e-8fe2-80aeecc68b5f"></kbd>
 
-Based on the line chart over the years 2010 to 2012, Walmart sales have shown seasonal fluctuations in April, and June to December, suggesting patterns tied to seasonal events. April is associated with Spring, June to December are associated with Summer, Autmun and Fall. 
+Based on the line chart over the years 2010 to 2012, Walmart sales have shown seasonal fluctuations in April, and June to December, suggesting patterns tied to seasonal events. April is associated with Spring, June to December are associated with Summer, Autumn and Fall. The highest monthly sales exceed $640 million in April and July. While the lowest monthly sales is in January below $350 million. 
