@@ -22,11 +22,12 @@ USE walmart_sales;
 Import the CSV file previously exported via Jupyter Notebooks
 <p align="center" width="100%">
   <img width="35%" src="https://github.com/user-attachments/assets/c1862464-09f1-4910-9c48-88efac75c94a"> 
+  <img width="55%" src="https://github.com/user-attachments/assets/bf65bf6a-e298-46b8-bcb7-914d07bc12f9"> 
 </p>
 
 Create a new table and give an appropriate name. 
 <p align="center" width="100%">
-  <img width="55%" src="https://github.com/user-attachments/assets/bf65bf6a-e298-46b8-bcb7-914d07bc12f9"> 
+  <img width="55%" src="https://github.com/user-attachments/assets/be57c061-cbb7-4d8b-a0e7-8d32416c678c"> 
 </p>
 
 Ensure the field types are correct for each column
