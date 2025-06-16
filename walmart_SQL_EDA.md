@@ -9,6 +9,7 @@ Create a schema then use it as the default schema for analysis.
 
 ```sql
 CREATE SCHEMA walmart_sales;
-
+```
+```sql
 USE walmart_sales;
 ```
