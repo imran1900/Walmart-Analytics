@@ -39,5 +39,5 @@ The columns included in the dataset are the following:
 
 ### Overview of Findings
 
-The entire interactive dashboard can be downloaded [here](https://github.com/imran1900/Walmart-Analytics/blob/main/walmart_visualization.pbix)
+Below is an overview page of the Power BI dashboard with charts and insights derived from them. The entire interactive dashboard can be downloaded [here](https://github.com/imran1900/Walmart-Analytics/blob/main/walmart_viz.pbix)
 
