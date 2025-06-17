@@ -33,4 +33,7 @@ The columns included in the dataset are the following:
 ## Project Phases
 #### 1. [Import Libraries and Data Cleaning](https://github.com/imran1900/Walmart-Analytics/blob/main/walmart_cleaning.ipynb) (Python)
 #### 2. [Exploratory Data Analysis](https://github.com/imran1900/Walmart-Analytics/blob/main/walmart_SQL.md) (MySQL)
-#### 3. [Visualization, Insights and Recommendations](https://github.com/imran1900/Walmart-Analytics/blob/main/Walmart%20Sales%20Performance%20Dashboard.md) (Power BI)
+#### 3. [Visualization](https://github.com/imran1900/Walmart-Analytics/blob/main/walmart_visualization.pdf) (Power BI)
+
+## **Insights & Recommendation**
+
