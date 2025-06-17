@@ -46,7 +46,7 @@ Below is an overview page of the Power BI dashboard with charts and insights der
 
 **Sales Trends and Holiday Influence**
 
-<kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/64b43b16-f147-41f2-9f23-7b792dfd205f"></kbd>
+<kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/0ea30e58-d60d-4ea7-9b36-cf6d95035d3f"></kbd>
 
 - Company sales peaked in December, 2010 with a monthly revenue of $288.7 million, and its second highest sales revenue is seen in December, 2011 with a monthly revenue of $288.1 million.
 - Company sales fluctuate in April and between the months of June until year-end December. Outside of the months mentioned, sales return to normal levels hovering around a monthly revenue of $190 million. The month of April is associated with Spring/ Easter, June to August with Summer, September with Fall, and November/ December with Christmas. This corresponds to change in consumer behavior as a result of holiday seasons.
@@ -55,8 +55,13 @@ Below is an overview page of the Power BI dashboard with charts and insights der
 
 **Store-Level Performance**
 
-<kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/7f4a3fd2-e6a0-4ca0-937c-b37ab762ced3"></kbd>
-<kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/95dfe778-8fa9-4386-b4e8-817f0afd3a0e"></kbd>
+<kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/1a21c77e-0b10-4a26-97cc-ecdc1995c4cc"></kbd>
 
+- In each year, store ID's 2, 4, 13 and 20 are consistently within the top 5 stores by sales revenue. The highest sales revenue was made by store 20 amounting to a grand total $301.4 million. $278.9 million were made from Non-Holiday sales and $22.4 million from Holiday sales.
+- On the contrary, store ID's 4, 5, 33, 36 and 44 are all consistently within the lowest 5 stores by sales revenue. Store 33 has the lowest sales revenue for each consecutive year with its lowest sales revenue of $11.4 million in 2012. $10.9 million were from Non-Holiday sales and $569 thousand were Holiday sales.
 
 **Impact of External Economic Factors on Sales Revenue**
+
+<kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/88c03b26-93e3-4633-b7c9-8e1ab9699230"></kbd>
+
+
