@@ -51,10 +51,12 @@ Below is an overview page of the Power BI dashboard with charts and insights der
 - Company sales peaked in December, 2010 with a monthly revenue of $288.7 million, and its second highest sales revenue is seen in December, 2011 with a monthly revenue of $288.1 million.
 - Company sales fluctuate in April and between the months of June until year-end December. Outside of the months mentioned, sales return to normal levels hovering around a monthly revenue of $190 million. The month of April is associated with Spring/ Easter, June to August with Summer, September with Fall, and November/ December with Christmas. This corresponds to change in consumer behavior as a result of holiday seasons.
 - Company sales are at its lowest in January with a monthly revenue of $163.7 million in 2011 and $168.9 in 2012 despite January being associated with the New Years holiday.
-- The company's YoY growth increases by 7% from 2010 to 2011 from a total revenue of $2.29 million to $2.45 million. However, YoY drops by 18.3% from 2011 to 2012 because our dataset did not have data on November and December for 2012 which we is attributed to the highest monthly revenue.
+- The company's YoY growth increases by 7% from 2010 to 2011, a total revenue of $2.29 million to $2.45 million. However, YoY growth drops by 18.3% from 2011 to 2012 due to unavailability of data for the months November and December which can be attributed to the highest monthly revenue.
 
 **Store-Level Performance**
 
+<kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/7f4a3fd2-e6a0-4ca0-937c-b37ab762ced3"></kbd>
+<kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/95dfe778-8fa9-4386-b4e8-817f0afd3a0e"></kbd>
 
 
 **Impact of External Economic Factors on Sales Revenue**
