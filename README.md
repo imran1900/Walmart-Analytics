@@ -35,5 +35,9 @@ The columns included in the dataset are the following:
 #### 2. [Exploratory Data Analysis](https://github.com/imran1900/Walmart-Analytics/blob/main/walmart_SQL.md) (MySQL)
 #### 3. [Visualization](https://github.com/imran1900/Walmart-Analytics/blob/main/walmart_visualization.pdf) (Power BI)
 
-## **Insights & Recommendation**
+## **Executive Summary**
+
+### Overview of Findings
+
+The entire interactive dashboard can be downloaded [here](https://github.com/imran1900/Walmart-Analytics/blob/main/walmart_visualization.pbix)
 
