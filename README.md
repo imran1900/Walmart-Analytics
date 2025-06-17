@@ -38,9 +38,17 @@ The columns included in the dataset are the following:
 ## **Executive Summary**
 
 ### Overview of Findings
+WIP
 
 Below is an overview page of the Power BI dashboard with charts and insights derived from them. The entire interactive dashboard can be downloaded [here](https://github.com/imran1900/Walmart-Analytics/blob/main/walmart_viz.pbix).
 
 <kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/429e6636-4529-44c1-99d0-4009bf407605"></kbd>
 
+**Sales Trends**
 
+<kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/64b43b16-f147-41f2-9f23-7b792dfd205f"></kbd>
+
+- The company's sales peaked in December, 2010 with a monthly revenue of $288.7 million. The second highest sales revenue is seen in December, 2011 with a monthly revenue of $288.1 million.
+- Company sales fluctuate in April and between the months of June until year-end December. Outside of the months mentioned, sales return to normal levels hovering around a monthly revenue of $190 million. The month of April is associated with Spring/ Easter, June to August with Summer, September with Fall, and November/ December with Christmas. This corresponds to change in consumer behavior as a result of change of seasons.
+- Company sales are at its lowest in January with a monthly revenue of $163.7 million in 2011 and $168.9 in 2012 despite January being associated with the New Years holiday.
+- 
