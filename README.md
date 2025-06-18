@@ -64,4 +64,13 @@ Below is an overview page of the Power BI dashboard with charts and insights der
 
 <kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/88c03b26-93e3-4633-b7c9-8e1ab9699230"></kbd>
 
+<kbd><img width="60%" alt="image" src="https://github.com/user-attachments/assets/f2ab0a06-40bf-48d8-b820-23b475bf0fa7"></kbd>
+
+- Referencing the correlation matrix, there is little to no correlation between external economic factors affecting walmart sales revenue.
+- The chart shows fuel tends to peak between Spring - Summer. Seasonal peaks for fuel usually occur in April, May and November then troughs in January and September. We can attibtue this to the peaks found in our chart. $3.96 per litre in May, 2011 and $3.97 in April, 2012
+- Temperature averages around 60°F and peaks in Summer between the months of June - August. However no adverse effect on sales revenue despite high temperature levels.
+- Over the 3 years, CPI levels averages between 168.1 and 175.5. CPI peaks in the months of November - December, 168.6 in November, 2010, and 173.75 in December, 2011. Despite reaching yearly highs, it hasn't influenced consumer spending behaviors.
+- Over the 3 years, unemployment averages around 8.0, with its lowest at 7.8 between October - December in 2011, and highest at 8.62 between February - March in 2010. Unemployment levels seems to decrease over time an stabilizes towards year-end. Despite this, unemployment levels haven't influenced sales revenue nor has it affected seasonal sales.
+
+**Insights and Recommendation**
 
