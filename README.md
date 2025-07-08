@@ -37,9 +37,15 @@ The columns included in the dataset are the following:
 
 ## **Executive Summary**
 
+This analysis was performed based on 3 dimensions - Sales Trends and Holiday Influence, Store-Level Performance, and Impact of External Economic Factors on Sales Performance. Walmart experienced peak sales during the Holiday month of December, with record revenues of $288.7 million in 2010 and $288.1 million in 2011. Significant fluctuation are also seen in the Holidays months of Spring, April and Summer, June-July consistently generating over $220 million each year. In contrast, January consistently registers to lowest monthly sales of $160 million. Year-over-year performance increased by 7% from 2010 to 2011 but fell by 18.3% in 2012, due to missing data for November-December 2012. 
+
+Store ID 2, 4, 13 and 20 ranked top 5 performers each year with store 20 generating the highest cumulative sales of over $300 million every year. Conversely, stores 4, 5, 36 and 44 consistently underperormed with store 33 generating Walmart's lowest sales of $11.4 million in 2012. It is suggested to boost underperforming stores by increasing visibility and awareness through holiday promotions, in-store events to drive foot traffic and exclusive in-store promotions to convert online customers into store visits.
+
+External economic factors such as CPI, unemployment, temperature and fuel price show little to no correlation with the company's sales performance. Although fuel prices fluctuate during peak seasons particularly in holiday seasons, Spring and Winter, little evidence suggests these factors have no effect on consumer spending. 
+
 ### Overview of Findings
 
-Below is an overview page of the Power BI dashboard with charts and insights derived from them. The entire interactive dashboard can be downloaded [here](https://github.com/imran1900/Walmart-Analytics/blob/main/walmart_viz.pbix).
+Below is of the dashboard with charts and insights derived from them. The entire interactive dashboard can be downloaded [here](https://github.com/imran1900/Walmart-Analytics/blob/main/walmart_viz.pbix).
 
 <kbd><img width="100%" alt="image" src="https://github.com/user-attachments/assets/429e6636-4529-44c1-99d0-4009bf407605"></kbd>
 
